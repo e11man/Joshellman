@@ -67,3 +67,13 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Deploy to Vercel
+
+- Ensure you are in the project directory `joshellman`
+- Install Vercel CLI once: `npm i -g vercel`
+- First-time link: `vercel` and follow prompts
+- Preview deploy: `npm run vercel:preview`
+- Production deploy: `npm run vercel:prod`
+
+Vercel config is in `vercel.json` and outputs the SPA build to `dist/`. Routes are configured so all non-file requests serve `index.html` (except serverless functions under `/api`).
