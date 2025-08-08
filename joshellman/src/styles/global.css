@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --nav-height: 100px; --nav-height-min: 60px; }
+
+/* No gradients anywhere */
+.no-gradient { background-image: none !important; }
+
+/* Focus ring */
+.focus-ring:focus-visible { outline: 2px solid #FF4A4A; outline-offset: 2px; }
+
+/* Reduce motion support */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
