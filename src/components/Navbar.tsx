@@ -24,7 +24,6 @@ export default function Navbar() {
               { href: '#hero', label: 'Home' },
               { href: '#work', label: 'Work' },
               { href: '#process', label: 'Process' },
-              { href: '#testimonials', label: 'Testimonials' },
               { href: '#about', label: 'About' },
             ].map((item) => (
               <li key={item.href}>
