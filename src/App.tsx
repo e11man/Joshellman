@@ -2,7 +2,6 @@ import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
 import Work from './sections/Work'
 import Process from './sections/Process'
-import Testimonials from './sections/Testimonials'
 import About from './sections/About'
 import Contact from './sections/Contact'
 
@@ -14,7 +13,6 @@ function App() {
         <Hero />
         <Work />
         <Process />
-        <Testimonials />
         <About />
         <Contact />
       </main>

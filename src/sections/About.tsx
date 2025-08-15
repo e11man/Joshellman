@@ -14,7 +14,7 @@ export default function About() {
           </ul>
         </div>
         <div className="col-span-12 md:col-span-5">
-          <div className="aspect-[4/5] border border-border bg-white" aria-label="Portrait placeholder" />
+          <div className="aspect-[4/5] border border-border bg-white" aria-hidden="true" />
         </div>
       </div>
     </Section>
